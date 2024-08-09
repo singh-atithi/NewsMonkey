@@ -17,6 +17,14 @@ NewsMonkey is a web application that provides users with the latest news from ar
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+
+- **Note : **
+  Current Used Api is having functional issues with its handling , making some data unable to sync , although all data are having Replacements  It is suggested that please use Your own api for copy Use
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
