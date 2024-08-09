@@ -20,8 +20,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 
-- **Note : **
-  Current Used Api is having functional issues with its handling , making some data unable to sync , although all data are having Replacements  It is suggested that please use Your own api for copy Use
+## Note : 
+- **Current Used Api is having functional issues with its handling , making some data unable to sync , although all data are having Replacements  It is suggested that please use Your own api for copy Use
 
 
 
