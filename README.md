@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# NewsMonkey
+
+NewsMonkey is a web application that provides users with the latest news from around the world. The app utilizes the NewsAPI to gather news articles from a variety of reputable sources and presents them in an easy-to-use interface.
+
+## Key Features
+
+- **Advanced Filtering Options:** Users can easily sort news articles by category, such as:
+  - Home
+  - Business
+  - Entertainment
+  - Health
+  - Science
+  - Sports
+  - Technology
+- **Infinite Scrolling:** Seamlessly browse through a virtually endless stream of news articles without interruption.
+- **User-Friendly Interface:** Designed for ease of use, making it simple to stay updated with the latest news.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
