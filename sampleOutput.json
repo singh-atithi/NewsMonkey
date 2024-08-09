@@ -1,4 +1,351 @@
 {
-    "status": "ok",
-    "totalResults": 2
-}
+    "status": "success",
+    "totalResults": 354113,
+    "results": [
+      {
+        "article_id": "e939719b2c59b3314632151824517e1c",
+        "title": "Evo gdje gledati Osijek, Hajduk i Rijeku u europskim utakmicama",
+        "link": "https://www.index.hr/sport/clanak/evo-gdje-gledati-osijek-hajduk-i-rijeku-u-europskim-utakmicama/2588885.aspx",
+        "keywords": [
+          "sport"
+        ],
+        "creator": null,
+        "video_url": null,
+        "description": "HRVATSKI nogometni klubovi Rijeka, Osijek i Hajduk kreću u 3. pretkola europskih kvalifikacija.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2024-08-08 06:09:00",
+        "image_url": "https://bucket.index.hr/b/index/a683c2f5-6ccd-4872-bed5-4a8f68487cb6.jpg",
+        "source_id": "index_hr",
+        "source_priority": 52503,
+        "source_name": "Index",
+        "source_url": "https://www.index.hr",
+        "source_icon": "https://i.bytvi.com/domain_icons/index_hr.png",
+        "language": "croatian",
+        "country": [
+          "croatia"
+        ],
+        "category": [
+          "sports"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "9a32f6b918fd361f4216dde2431ab6f7",
+        "title": "“Peter Gabriel got all the credibility, and I got the money – ha!” Phil Collins on his role as Genesis’ class clown and their only contact with the outside world",
+        "link": "https://www.loudersound.com/features/phil-collins-genesis",
+        "keywords": [
+          "phil collins",
+          "genesis"
+        ],
+        "creator": null,
+        "video_url": null,
+        "description": "How the “junior member” broke into the band’s songwriting clique, his embarrassment over his solo success, and how the Sex Pistols influenced his choice of record label",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2024-08-08 06:09:00",
+        "image_url": "https://cdn.mos.cms.futurecdn.net/dtA3pjLAJj8VbzSAoeBAmg.jpg",
+        "source_id": "louder",
+        "source_priority": 4445,
+        "source_name": "Louder",
+        "source_url": "https://www.loudersound.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/louder.png",
+        "language": "english",
+        "country": [
+          "united kingdom"
+        ],
+        "category": [
+          "entertainment"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "3b8b0d78028f760a278192a59b693d75",
+        "title": "[사진]유영재,'여심 사로잡는 무대'",
+        "link": "https://www.chosun.com/entertainments/entertain_photo/2024/08/08/OGUJ36XNPU24F3VIP7ZSRAPZL4/",
+        "keywords": null,
+        "creator": null,
+        "video_url": null,
+        "description": "[OSEN=민경훈 기자] 8일 오후 서울 강남구 일지아트홀에서 그룹 B.A.P 출신 방용국&정대현&유영재&문종업 첫 번째 EP '커튼 콜' 미디어 쇼케이스가 열렸다.'커튼 콜'은 방용국&정대현&유영재&문종업이 2017년 B.A.P 여덟 번째 싱글 '에고' 이후 약 6년 반 만에 발매하는 앨범이다. 신보에는 타이틀곡 '곤'을 비롯해 지난 15일 선공개한 '빛",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2024-08-08 06:09:00",
+        "image_url": "https://www.chosun.com/resizer/v2/5IIQJFSFL4MJ7QOW7SPRA647PE.jpg?auth=c4f1c2ef6a4308d86c47e0be2c024632cd6baca1eaa2962a93f7bc5efe1cd72d&height=950&smart=true&width=530",
+        "source_id": "chosun",
+        "source_priority": 9559,
+        "source_name": "Chosun",
+        "source_url": "https://www.chosun.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/chosun.png",
+        "language": "korean",
+        "country": [
+          "south korea"
+        ],
+        "category": [
+          "entertainment"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "1b7038eeb5154082da07484077aebfbd",
+        "title": "Gürcistanlı hasta çareyi Trabzon’da buldu!",
+        "link": "https://www.61saat.com/gurcistanli-hasta-careyi-trabzonda-buldu",
+        "keywords": [
+          "bölgesel"
+        ],
+        "creator": null,
+        "video_url": null,
+        "description": "Gürcistan'ın Batum şehrinde yaşayan 71 yaşındaki Nunu Tsutsunava Trabzon'da gerçekleştirilen aort kapağı değiştirme operasyonu ile hayata yeniden \"Merhaba\" dedi.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2024-08-08 06:09:00",
+        "image_url": "https://61saatcom.teimg.com/crop/1280x720/61saat-com/uploads/2024/08/ekran-resmi-2024-08-08-091020.png",
+        "source_id": "61saat",
+        "source_priority": 1112068,
+        "source_name": "61saat",
+        "source_url": "https://www.61saat.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/61saat.png",
+        "language": "turkish",
+        "country": [
+          "turkey"
+        ],
+        "category": [
+          "top"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "a09bf8dd9a0b36242a63d0700adfbe0c",
+        "title": "പാത്രങ്ങളിൽ നിരത്തിയ പൂച്ചകൾ, ഇറച്ചി 'വിൽപ്പന'യ്ക്ക്; കൊച്ചി മറൈൻ ഡ്രൈവിൽ വേറിട്ടൊരു കാഴ്ച, കാരണമിത്...",
+        "link": "https://www.asianetnews.com/kerala-news/symbolic-cat-meat-sale-protest-by-peta-in-kochi-marine-drive-as-part-of-international-cat-day-shvyf0",
+        "keywords": null,
+        "creator": null,
+        "video_url": null,
+        "description": "കൊച്ചി: ഇന്ന് അന്താരാഷ്ട്ര പൂച്ച ദിനമാണ്. കൊച്ചി മറൈൻ ഡ്രൈവിൽ വേറിട്ടൊരു പ്രതിഷേധം നടന്നു. പൂച്ച ദിനത്തോടനുബന്ധിച്ച് പീപ്പിൾ ഫോർ ദ എത്തിക്കൽ ട്രീറ്റ്മെന്‍റ് ഓഫ് ആനിമൽസ് ഇന്ത്യയുടെ നേതൃത്വത്തിൽ പ്രതീകാത്മകമായി പൂച്ച ഇറച്ചി വിറ്റുള്ള പ്രതിഷേധമാണ് നടന്നത്. വിവിധ പാത്രങ്ങളിൽ നിരത്തി വച്ചിരിക്കുന്ന പൂച്ചകൾ. അവയുടെ ഇറച്ചിക്കുള്ള വിലയും രേഖപ്പെടുത്തിയിട്ടുണ്ട്. ഇതൊരു മാംസം വിൽക്കുന്ന കടയാണെന്ന് തെറ്റിദ്ധരിക്കരുത്. പൂച്ചയെ പാകം ചെയ്ത് കഴിക്കാത്തവർ മത്സ്യവും കഴിക്കരുത് എന്ന സന്ദേശം പ്രചരിപ്പിക്കുകയാണ് പീറ്റ ഇന്ത്യ എന്ന സംഘടന. എല്ലാ മൃഗങ്ങളും വേദനയും ഭയവും ഉള്ളവരാണെന്നും മാംസാഹാരം വെടിഞ്ഞ് സസ്യഭക്ഷണം ശീലമാക്കണമെന്നുമാണ് സംഘടന പ്രതീകാത്മകമായി പറഞ്ഞു വയ്ക്കുന്നത്. പൂച്ചകളുടെ രൂപത്തിലുള്ള പാവകളാണ് ഉപയോഗിച്ചിരിക്കുന്നത്. മത്സ്യങ്ങളുടെ സംരക്ഷണത്തിനാണ് പീറ്റ ഈ ക്യാമ്പെയിനൂടെ ഊന്നൽ നൽകുന്നത്. മത്സ്യങ്ങൾക്കും വേദനയുണ്ടെന്നും പരസ്പരം ആശയവിനിമയം നടത്തി ജീവിക്കുന്ന അവയെ പലപ്പോഴും ജീവനോടെ ചുട്ടും ചതച്ചും കറിവച്ചും മനുഷ്യൻ ആഹാരമാക്കുകയാണെന്നുമാണ് പീറ്റയുടെ പരാതി. ആഗോള തലത്തിൽ സസ്യാഹാരത്തിലേക്കുള്ള മാറ്റം അത്യാവശ്യമാണെന്നും പീറ്റ പറയുന്നു. ഒറ്റയടിക്ക് 30 കോടി മുട്ടകളിടും, 2000 കിലോ വരെ ഭാരം, കടലിലെ പാവത്താൻ; വിഴിഞ്ഞത്ത് അപൂർവകാഴ്ചയായി സൂര്യമത്സ്യം",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2024-08-08 06:09:00",
+        "image_url": "https://static-ai.asianetnews.com/images/01j4r8xhzsve09qgpyeds6d9ec/cat.jpg",
+        "source_id": "asianetnews",
+        "source_priority": 7771,
+        "source_name": "Asianet News",
+        "source_url": "https://www.asianetnews.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/asianetnews.png",
+        "language": "malayalam",
+        "country": [
+          "india"
+        ],
+        "category": [
+          "top"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "5ac05b4d1d11db2675fab2397e5a6c3a",
+        "title": "Chitosan Market to Reach $42.8 Billion, Globally, by 2033 at 18.7% CAGR: Allied Market Research",
+        "link": "https://www.prnewswire.com/news-releases/chitosan-market-to-reach-42-8-billion-globally-by-2033-at-18-7-cagr-allied-market-research-302217595.html",
+        "keywords": [
+          "chm",
+          "chemical",
+          "env",
+          "environmental products & services"
+        ],
+        "creator": null,
+        "video_url": null,
+        "description": "An increase in the use of chitosan in water treatment is driving the market growth due to its effectiveness in removing contaminants and heavy metals. Chitosan's biodegradable and non-toxic nature makes it an attractive choice for sustainable water purification, addressing the rise in...",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2024-08-08 06:09:00",
+        "image_url": "https://mma.prnewswire.com/media/636519/Allied_Market_Research_Logo.jpg?p=publish",
+        "source_id": "cision",
+        "source_priority": 1625,
+        "source_name": "Pr Newswire",
+        "source_url": "https://www.prnewswire.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/cision.jpg",
+        "language": "english",
+        "country": [
+          "united states of america"
+        ],
+        "category": [
+          "top"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "1f089bb6f26a928861eef6ea64b09c8a",
+        "title": "「わしは取っちゃいない」警察官の目の前でスリ 公園で寝ていた大学生のスマホ盗んだ男を現行犯逮捕 広島",
+        "link": "https://www.fnn.jp/articles/-/740812",
+        "keywords": [
+          "社会,都道府県"
+        ],
+        "creator": null,
+        "video_url": null,
+        "description": "「わしは取っちゃいない」警察官の目の前でスリ 公園で寝ていた大学生のスマホ盗んだ男を現行犯逮捕 広島",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2024-08-08 06:09:00",
+        "image_url": "https://fnn.ismcdn.jp/mwimgs/5/9/256wm/img_59dfb22f7a291d881e87a5cb9edda82172699.jpg",
+        "source_id": "fnn",
+        "source_priority": 428975,
+        "source_name": "Fnnプライムオンライン",
+        "source_url": "https://www.fnn.jp",
+        "source_icon": "https://i.bytvi.com/domain_icons/fnn.png",
+        "language": "japanese",
+        "country": [
+          "japan"
+        ],
+        "category": [
+          "top"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "0a5d5364deb5d17c0d7907b5f39b094e",
+        "title": "La AEMET, obligada a emitir un comunicado de emergencia por lo que llega a España: hace 70 años que no pasa",
+        "link": "https://www.mundodeportivo.com/actualidad/20240808/1002295230/aemet-obligada-emitir-comunicado-emergencia-llega-espana-70-anos-pasa-dct.html",
+        "keywords": [
+          "actualidad"
+        ],
+        "creator": [
+          "Autor Redacción"
+        ],
+        "video_url": null,
+        "description": "La segunda semana del mes de agosto nos está dejando un poco de todo en el apartado meteorológico. En estos primeros días del mes ha habido espacio para las lluvias y tormentas, muchas de ellas de la mano de un frente atlántico que llegó el pasado martes a nuestro país. Pero si ha habido un protagonista claro ha sido el calor.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2024-08-08 06:09:00",
+        "image_url": "https://www.mundodeportivo.com/files/og_thumbnail/uploads/2024/08/08/66b460ed14106.jpeg",
+        "source_id": "mundodeportivo",
+        "source_priority": 2442,
+        "source_name": "Mundo Deportivo",
+        "source_url": "https://www.mundodeportivo.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/mundodeportivo.png",
+        "language": "spanish",
+        "country": [
+          "spain"
+        ],
+        "category": [
+          "top"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "dcb19a283a6ffc983ccfeace13b34ef8",
+        "title": "최상목 \"주택 공급 획기적 확대...수요는 선제적 관리\"",
+        "link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1007755796",
+        "keywords": [
+          "seoul broadcast station",
+          "임태우",
+          "news",
+          "최상목",
+          "sbs 뉴스",
+          "서울",
+          "시장",
+          "뉴스",
+          "서울방송",
+          "sbs news",
+          "관리",
+          "일반기사",
+          "부동산",
+          "공급",
+          "sbs",
+          "economy",
+          "부동산 정책 · 시장 동향",
+          "경제",
+          "주택"
+        ],
+        "creator": [
+          "eight@sbs.co.kr(임태우)"
+        ],
+        "video_url": null,
+        "description": "▲ 최상목 부총리최상목 부총리가 부동산 시장 안정화를 위한 정부 대책을 발표했습니다.앞으로 6년간 서울과 수도권에 42만 7천 호 이...",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2024-08-08 06:09:00",
+        "image_url": "https://img.sbs.co.kr/newimg/news/20240808/201970155_1280.jpg",
+        "source_id": "sbs_ko",
+        "source_priority": 37166,
+        "source_name": "Sbs 뉴스",
+        "source_url": "https://news.sbs.co.kr/news/newsMain.do",
+        "source_icon": "https://i.bytvi.com/domain_icons/sbs_ko.png",
+        "language": "korean",
+        "country": [
+          "south korea"
+        ],
+        "category": [
+          "business"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": false
+      },
+      {
+        "article_id": "4f8ea6d69191aa994d529bf9ed71b82d",
+        "title": "Saatchi turns page on Telegraph after £350m offer rejected",
+        "link": "https://ca.news.yahoo.com/saatchi-turns-page-telegraph-350m-060900376.html",
+        "keywords": [
+          "business"
+        ],
+        "creator": [
+          "Sky News"
+        ],
+        "video_url": null,
+        "description": "Lord Saatchi, the former advertising mogul, has accused The Daily Telegraph’s would-be proprietors of overpaying for the right to own the title after his £350m offer for it was rejected. Sky News has learnt that an indicative bid from Lord Saatchi and Lady Lynn Forester de Rothschild, a former director of The Economist Group, has not made it through to the second round of an auction of the right-leaning newspaper.",
+        "content": "ONLY AVAILABLE IN PAID PLANS",
+        "pubDate": "2024-08-08 06:09:00",
+        "image_url": "https://s.yimg.com/uu/api/res/1.2/I3vRwbaC3QyUCFZilp3X1Q--~B/aD0zODA7dz02NDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/sky.com/7f3ef32ac892c74e54d86a7d13814b3b",
+        "source_id": "yahoo",
+        "source_priority": 17,
+        "source_name": "Yahoo! News",
+        "source_url": "https://news.yahoo.com",
+        "source_icon": "https://i.bytvi.com/domain_icons/yahoo.png",
+        "language": "english",
+        "country": [
+          "canada"
+        ],
+        "category": [
+          "sports"
+        ],
+        "ai_tag": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "sentiment_stats": "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
+        "ai_region": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "ai_org": "ONLY AVAILABLE IN CORPORATE PLANS",
+        "duplicate": true
+      }
+    ],
+    "nextPage": "1723097340525291320"
+  }
