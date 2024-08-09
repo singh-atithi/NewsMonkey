@@ -22,10 +22,9 @@ export class News extends Component {
     this.setState({ loading: true });
     const { currentPage } = this.state;
     const { articlesPerPage } = this.props;
-    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=758095a5ffd144209113833257f14700&page=${currentPage}&pageSize=${articlesPerPage}`;
+    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=e5eebe74c278480580c3b7517ee9615b&page=${currentPage}&pageSize=${articlesPerPage}`;
     let data = await fetch(url);
     let parsedData = await data.json();
-    console.log(parsedData);
     this.setState({
       articles: parsedData.articles,
       loading: false,
@@ -44,12 +43,10 @@ export class News extends Component {
   };
 
   render() {
+  
     const { articles, currentPage, loading } = this.state;
-    const { articlesPerPage } = this.props;
-    const { category } = this.props;
-    const { author } = this.props;
-    const indexofLastArticle = currentPage * articlesPerPage;
-    const indexofFirstArticle = indexofLastArticle - articlesPerPage;
+   
+    let{category,author,source,articlesPerPage}=this.props
 
     return (
       <>
@@ -79,6 +76,7 @@ export class News extends Component {
                           }
                           author={element.author}
                           newsUrl={element.url}
+                          source={element.source.name}
                         />
                       </div>
                     );
