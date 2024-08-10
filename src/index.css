@@ -1,3 +1,15 @@
 body{
     background-color: #415a77;
 }
+p,small,a{
+    font-family: serif;
+}
+nav a {
+    font-family:sans-serif;
+    font-weight:850;
+
+}
+.Headd{
+    font-family:serif;
+    font-size:xx-large;
+}

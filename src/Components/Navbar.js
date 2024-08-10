@@ -1,68 +1,65 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
 export class Navbar extends Component {
-  articles = [];
+  constructor(props) {
+    super(props);
+    this.state = {
+      isCollapsed: true,
+    };
+  }
+
+  toggleNavbar = () => {
+    this.setState({ isCollapsed: !this.state.isCollapsed });
+  };
 
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg bg-dark p-3">
+        <nav className="navbar navbar-expand-lg bg-dark p-3" style={{fontFamily: 'Times New Roman'}}>
           <div className="container-fluid">
-            <Link className="navbar-brand text-white">NewsMonkey</Link>
+            <Link className="navbar-brand text-white Headd" to="/">NewsMonkey</Link>
             <button
               className="navbar-toggler bg-white"
               type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+              onClick={this.toggleNavbar}
             >
               <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              className="collapse navbar-collapse"
+              className={`collapse navbar-collapse mx-5 mt-1 ${
+                this.state.isCollapsed ? "" : "show"
+              }`}
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link
-                    to="/general"
-                    className="nav-link active text-white"
-                    aria-current="page"
-                  >
-                    Home
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link to="./business" className="nav-link text-white">
+                  <Link to="./business" onClick={this.toggleNavbar} className="nav-link text-white">
                     Business
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="./entertainment" className="nav-link text-white">
+                  <Link to="./entertainment" onClick={this.toggleNavbar} className="nav-link text-white">
                     Entertainment
                   </Link>
                 </li>
-
                 <li className="nav-item">
-                  <Link to="./health" className="nav-link text-white">
+                  <Link to="./health"  onClick={this.toggleNavbar}className="nav-link text-white">
                     Health
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="./science" className="nav-link text-white">
+                  <Link to="./science" onClick={this.toggleNavbar} className="nav-link text-white">
                     Science
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="./sports" className="nav-link text-white">
+                  <Link to="./sports"  onClick={this.toggleNavbar}className="nav-link text-white">
                     Sports
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="./technology" className="nav-link text-white">
+                  <Link to="./technology"  onClick={this.toggleNavbar}className="nav-link text-white">
                     Technology
                   </Link>
                 </li>

@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import News from "./Components/News";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 export default class App extends Component {
+  articlesPerPage=10;
   render() {
     return (
       <div style={{ backgroundColor: " rgb(65,90,119)" }}>
@@ -17,7 +18,7 @@ export default class App extends Component {
               element={
                 <News
                   key="general"
-                  articlesPerPage={20}
+                  articlesPerPage={this.articlesPerPage}
 
                   country={"IN"}
                   category={"general"}
@@ -30,7 +31,7 @@ export default class App extends Component {
               element={
                 <News
                   key="business"
-                  articlesPerPage={20}
+                  articlesPerPage={this.articlesPerPage}
 
                   country={"IN"}
                   category={"business"}
@@ -43,7 +44,7 @@ export default class App extends Component {
               element={
                 <News
                   key="health"
-                  articlesPerPage={20}
+                  articlesPerPage={this.articlesPerPage}
 
                   country={"IN"}
                   category={"health"}
@@ -55,7 +56,7 @@ export default class App extends Component {
               element={
                 <News
                   key="entertainment"
-                  articlesPerPage={20}
+                  articlesPerPage={this.articlesPerPage}
 
                   country={"IN"}
                   category={"entertainment"}
@@ -67,7 +68,7 @@ export default class App extends Component {
               element={
                 <News
                   key="science"
-                  articlesPerPage={20}
+                  articlesPerPage={this.articlesPerPage}
 
                   country={"IN"}
                   category={"science"}
@@ -80,7 +81,7 @@ export default class App extends Component {
               element={
                 <News
                   key="sports"
-                  articlesPerPage={20}
+                  articlesPerPage={this.articlesPerPage}
 
                   country={"IN"}
                   category={"sports"}
@@ -93,7 +94,7 @@ export default class App extends Component {
               element={
                 <News
                   key="technology"
-                  articlesPerPage={20}
+                  articlesPerPage={this.articlesPerPage}
 
                   country={"IN"}
                   category={"technology"}

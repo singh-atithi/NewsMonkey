@@ -1,35 +1,61 @@
 import React, { Component } from "react";
 import NewsItem from "./NewsItem";
 import Spinner from "./Spinner";
+import defaultArticles from "./defarticle";
+
 
 export class News extends Component {
   articles = [];
-
   constructor() {
     super();
     this.state = {
       articles: [], // Initialized as an empty array
       loading: false,
       currentPage: 1,
+      totalResults: 0, 
     };
   }
+  fetchArticles = async () => {
+    this.setState({ loading: true });
+    const { currentPage } = this.state;
+    const { articlesPerPage ,apikey} = this.props;
+    try {
+      let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=${apikey}&page=${currentPage}&pageSize=${articlesPerPage}`;
+      let data = await fetch(url);
+      let parsedData = await data.json();
+
+      if (parsedData.articles && parsedData.articles.length > 0) {
+        this.setState({
+          articles: parsedData.articles,
+          loading: false,
+        });
+      } else {
+        // If no articles returned, use the default articles
+        this.setState({
+          articles: defaultArticles.slice(
+            (currentPage - 1) * articlesPerPage,
+            currentPage * articlesPerPage
+          ),
+          totalResults: defaultArticles.length,
+          loading: false,
+        });
+      }
+    } catch (error) {
+      // On API failure, use the default articles
+      this.setState({
+        articles: defaultArticles.slice(
+          (currentPage - 1) * articlesPerPage,
+          currentPage * articlesPerPage
+        ),
+        totalResults: defaultArticles.length,
+        loading: false,
+      });
+    }
+  };
 
   async componentDidMount() {
     await this.fetchArticles();
   }
-
-  fetchArticles = async () => {
-    this.setState({ loading: true });
-    const { currentPage } = this.state;
-    const { articlesPerPage } = this.props;
-    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=1f0ef25771d74023a3118716b153dfc3&page=${currentPage}&pageSize=${articlesPerPage}`;
-    let data = await fetch(url);
-    let parsedData = await data.json();
-    this.setState({
-      articles: parsedData.articles,
-      loading: false,
-    });
-  };
 
   handlePageChange = async (pageNumber) => {
     this.setState({ currentPage: pageNumber }, () => {
@@ -44,7 +70,7 @@ export class News extends Component {
 
   render() {
   
-    const { articles, currentPage, loading } = this.state;
+    const { articles, currentPage, loading,totalResults } = this.state;
    
     let{category,author,source,articlesPerPage}=this.props
 
@@ -110,8 +136,10 @@ export class News extends Component {
             </button>
             <button
               type="button"
-              disabled={articles.length < articlesPerPage}
-              onClick={() => this.handlePageChange(currentPage + 1)}
+              disabled={
+                articles.length < articlesPerPage ||
+                currentPage * articlesPerPage >= totalResults}
+                onClick={() => this.handlePageChange(currentPage + 1)}
               className="btn btn-primary"
               style={{ marginRight: "25px" }}
             >

@@ -30,7 +30,7 @@ export class NewsItem extends Component {
           <h5 className="card-title text-white mb-3">{title}...</h5>
           <p className="card-text text-white">{description}...</p>
           <p className="card-text">
-            <small className="text-muted">
+            <small className="text-white" >
               By "{!author ? "Unknown" : author}" on "
               {new Date(publishedAt).toLocaleDateString()} at {new Date(publishedAt).toLocaleTimeString()} "
             </small>
