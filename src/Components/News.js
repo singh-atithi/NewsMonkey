@@ -2,33 +2,37 @@ import React, { Component } from "react";
 import NewsItem from "./NewsItem";
 import Spinner from "./Spinner";
 import defaultArticles from "./defarticle";
-
+import InfiniteScroll from 'react-infinite-scroll-component';
 
 export class News extends Component {
-  articles = [];
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       articles: [], // Initialized as an empty array
       loading: false,
       currentPage: 1,
-      totalResults: 0, 
+      totalResults: 0,
+     
     };
   }
+
   fetchArticles = async () => {
-    this.setState({ loading: true });
     const { currentPage } = this.state;
-    const { articlesPerPage ,apikey} = this.props;
+    const { articlesPerPage } = this.props;
+    this.setState({ loading: true });
+    this.props.setProgress(10)
     try {
-      let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=${apikey}&page=${currentPage}&pageSize=${articlesPerPage}`;
+      let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=${this.props.apikey}&page=${currentPage}&pageSize=${articlesPerPage}`;
       let data = await fetch(url);
       let parsedData = await data.json();
 
       if (parsedData.articles && parsedData.articles.length > 0) {
         this.setState({
           articles: parsedData.articles,
+          totalResults: parsedData.totalResults,
           loading: false,
         });
+        this.props.setProgress(40)
       } else {
         // If no articles returned, use the default articles
         this.setState({
@@ -39,6 +43,8 @@ export class News extends Component {
           totalResults: defaultArticles.length,
           loading: false,
         });
+        this.props.setProgress(40)
+
       }
     } catch (error) {
       // On API failure, use the default articles
@@ -50,7 +56,10 @@ export class News extends Component {
         totalResults: defaultArticles.length,
         loading: false,
       });
+      this.props.setProgress(40)
+
     }
+    this.props.setProgress(100)
   };
 
   async componentDidMount() {
@@ -59,7 +68,7 @@ export class News extends Component {
 
   handlePageChange = async (pageNumber) => {
     this.setState({ currentPage: pageNumber }, () => {
-      this.fetchArticles(); // Fetch new articles when the page changes
+      this.fetchArticles();
     });
     window.scrollTo({
       top: 0,
@@ -68,21 +77,93 @@ export class News extends Component {
     });
   };
 
-  render() {
-  
-    const { articles, currentPage, loading,totalResults } = this.state;
-   
-    let{category,author,source,articlesPerPage}=this.props
 
+
+
+  fetchMoreData = async() => {
+   this.setState({currentPage:this.state.currentPage+1})
+   const { currentPage } = this.state;
+   const { articlesPerPage } = this.props;
+   this.setState({ loading: true });
+   this.props.setProgress(10)
+   try {
+     let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=${this.props.apikey}&page=${currentPage}&pageSize=${articlesPerPage}`;
+     let data = await fetch(url);
+     let parsedData = await data.json();
+
+     if (parsedData.articles && parsedData.articles.length > 0) {
+       this.setState({
+         articles:this.state.articles.concat( parsedData.articles),
+         totalResults: parsedData.totalResults,
+         loading: false,
+       });
+       this.props.setProgress(40)
+     } else {
+       // If no articles returned, use the default articles
+       this.setState({
+         articles:  this.state.articles.concat(
+          defaultArticles.slice(
+            (currentPage - 1) * articlesPerPage,
+            currentPage * articlesPerPage
+          )
+        ),
+         totalResults: defaultArticles.length,
+         loading: false,
+       });
+       this.props.setProgress(40)
+
+     }
+   } catch (error) {
+     // On API failure, use the default articles
+     this.setState({
+       articles:  this.state.articles.concat(
+          defaultArticles.slice(
+            (currentPage - 1) * articlesPerPage,
+            currentPage * articlesPerPage
+          )
+        ),
+       totalResults: defaultArticles.length,
+       loading: false,
+     });
+     this.props.setProgress(40)
+
+   }
+   this.props.setProgress(100)
+  };
+
+
+
+
+
+
+
+
+
+
+  render() {
+    const { articles, currentPage, loading, totalResults } = this.state;
+    const { articlesPerPage } = this.props;
+    const totalPages = Math.ceil(totalResults / articlesPerPage);
+    
     return (
       <>
         <div className="container my-3">
           <h2 className="display-4 mb-3 text-white">
             NewsMonkey - Top Headlines
           </h2>
-          {loading && <Spinner />}
+          {/* {loading && <Spinner />} */}
+
+
+          <InfiniteScroll
+          dataLength={this.state.articles.length}
+          next={this.fetchMoreData}
+          hasMore={this.state.articles.length!==this.state.totalResults}
+          loader={<Spinner/>}
+        >
+
+<div className="container">
           <div className="row">
-            {!loading && articles.length > 0
+            {articles.length > 0
               ? articles.map((element) => {
                   if (element.title && element.title !== "[Removed]") {
                     return (
@@ -111,9 +192,12 @@ export class News extends Component {
                 })
               : ""}
           </div>
+          </div>
+          </InfiniteScroll>
         </div>
+        {!loading && !Spinner && <hr className="text-white" />}
 
-        <hr className="text-white" />
+{/*        
         <div
           style={{
             width: "100vw",
@@ -136,17 +220,15 @@ export class News extends Component {
             </button>
             <button
               type="button"
-              disabled={
-                articles.length < articlesPerPage ||
-                currentPage * articlesPerPage >= totalResults}
-                onClick={() => this.handlePageChange(currentPage + 1)}
+              disabled={currentPage >= totalPages}
+              onClick={() => this.handlePageChange(currentPage + 1)}
               className="btn btn-primary"
               style={{ marginRight: "25px" }}
             >
               Next
             </button>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </>
     );
   }

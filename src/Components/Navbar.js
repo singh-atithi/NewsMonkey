@@ -16,9 +16,9 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg bg-dark p-3" style={{fontFamily: 'Times New Roman'}}>
+        <nav className="navbar navbar-expand-lg  bg-light" style={{fontFamily: 'Times New Roman',backgroundColor:"black"}}>
           <div className="container-fluid">
-            <Link className="navbar-brand text-white Headd" to="/">NewsMonkey</Link>
+            <Link className="navbar-brand Headd" to="/">NewsMonkey</Link>
             <button
               className="navbar-toggler bg-white"
               type="button"
@@ -34,32 +34,32 @@ export class Navbar extends Component {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link to="./business" onClick={this.toggleNavbar} className="nav-link text-white">
+                  <Link to="./business" onClick={this.toggleNavbar} className="nav-link text-black">
                     Business
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="./entertainment" onClick={this.toggleNavbar} className="nav-link text-white">
+                  <Link to="./entertainment" onClick={this.toggleNavbar} className="nav-link text-black">
                     Entertainment
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="./health"  onClick={this.toggleNavbar}className="nav-link text-white">
+                  <Link to="./health"  onClick={this.toggleNavbar}className="nav-link text-black">
                     Health
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="./science" onClick={this.toggleNavbar} className="nav-link text-white">
+                  <Link to="./science" onClick={this.toggleNavbar} className="nav-link text-black">
                     Science
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="./sports"  onClick={this.toggleNavbar}className="nav-link text-white">
+                  <Link to="./sports"  onClick={this.toggleNavbar}className="nav-link text-black">
                     Sports
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="./technology"  onClick={this.toggleNavbar}className="nav-link text-white">
+                  <Link to="./technology"  onClick={this.toggleNavbar}className="nav-link text-black">
                     Technology
                   </Link>
                 </li>
