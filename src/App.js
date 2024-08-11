@@ -19,7 +19,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div style={{ backgroundColor: " rgb(65,90,119)" }}>
+      <div style={{ backgroundColor: "#ce9f9f" }}>
         <Router>
           <Navbar />
           <LoadingBar
