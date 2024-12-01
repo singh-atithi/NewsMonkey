@@ -16,7 +16,7 @@ const Navbar=(props)=> {
       <div>
         <nav className="navbar navbar-expand-lg fixed-top bg-light" style={{fontFamily: 'Times New Roman',backgroundColor:"black"}}>
           <div className="container-fluid">
-            <Link className="navbar-brand Headd" to="/">NewsMonkey</Link>
+            <Link className="navbar-brand Headd" to="/">My News</Link>
             <button
               className="navbar-toggler bg-white"
               type="button"

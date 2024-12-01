@@ -110,10 +110,10 @@ const[totalResults,setTotalResults]=useState(0)
 
     return (
       <>
-        <div className="container my-3">
+        <div className="container">
           <h2
-            className="display-4 mb-3"
-            style={{ color: "#8a0000", fontWeight: "600" }}
+            className="display-4 mt-5 pt-2"
+            style={{ color: "#8a0000", fontWeight: "600" ,marginTop:"100px"}}
           >
             NewsMonkey - Top Headlines
           </h2>
